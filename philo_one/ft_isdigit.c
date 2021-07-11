@@ -1,0 +1,8 @@
+#include "philo_one.h"
+
+int	ft_isdigit(int c)
+{
+	if ('0' <= c && c <= '9')
+		return (1);
+	return (0);
+}
